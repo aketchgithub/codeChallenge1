@@ -1,0 +1,28 @@
+{
+  "name": "codechallenge1",
+  "version": "1.0.0",
+  "description": "My first code challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aketchgithub/codeChallenge1.git"
+  },
+  "keywords": [
+    "code",
+    "challenge",
+    "prompt"
+  ],
+  "author": "Aketch Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aketchgithub/codeChallenge1/issues"
+  },
+  "homepage": "https://github.com/aketchgithub/codeChallenge1#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "netsalarycalculator",
+  "version": "1.0.0",
+  "description": "Net Salary Calculator System",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "netSalaryCalculatorSystem"
+  ],
+  "author": "Victor Aketch",
+  "license": "ISC"
+}

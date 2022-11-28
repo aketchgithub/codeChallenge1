@@ -1,0 +1,14 @@
+{
+  "name": "speeddetector",
+  "version": "1.0.0",
+  "description": "Speed detector challenge",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "speedDetectorChallenge"
+  ],
+  "author": "Victor Aketch",
+  "license": "ISC"
+}
