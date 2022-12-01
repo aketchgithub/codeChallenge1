@@ -5,7 +5,7 @@
 #Takes basic salary and total benefits as input and returns an individual's net salary, total deductions.
 ## Run Locally
 
-Clone the project
+Clone the project from github
 
 ```bash
   git clone git@github.com: aketchgithub/codeChallenge1.git
@@ -21,6 +21,7 @@ Install dependencies
 
 ```bash
   npm install
+   "prompt-sync": "^4.2.0"
 ```
 
 Start the server
@@ -35,8 +36,9 @@ Start the server
 To run tests, run the following command
 
 ```bash
-  npm run test
+  node main.js
 ```
+
 
 
 ## Tech Stack

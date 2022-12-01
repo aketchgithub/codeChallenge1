@@ -22,12 +22,13 @@ Install dependencies
 
 ```bash
   npm install
+   "prompt-sync": "^4.2.0"
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  node main.js
 ```
 
 

@@ -6,7 +6,7 @@ THIS IS MY FIRST CODE CHALLENGE .
 
 ## Run Locally
 
-Clone the project
+Clone the project from github
 
 ```bash
   git clone git@github.com: aketchgithub/codeChallenge1.git
@@ -22,12 +22,13 @@ Install dependencies
 
 ```bash
   npm install
+  "prompt-sync": "^4.2.0"
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  node main.js
 ```
 
 

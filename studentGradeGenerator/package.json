@@ -2,7 +2,7 @@
   "name": "codechallenge1",
   "version": "1.0.0",
   "description": "My first code challenge.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "npm run test",
     "start": "node main.js"

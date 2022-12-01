@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 //we assign the prompt output message by using let variable
-let basicSalary =prompt("please enter your basic salary =Ksh.")
-let benefits =prompt("Please enter your benefits =Ksh.")
+let basicSalary =prompt("please enter your basic salary =Ksh.") //prompts the user to input their basic salary
+let benefits =prompt("Please enter your benefits =Ksh.")//prompts the user to input their benefits
 let KRA ;
 function netSalaryCalculator(){
     let grossIncome = (+basicSalary+ +benefits)
@@ -16,7 +16,7 @@ function netSalaryCalculator(){
         let KRA =(grossIncome*35/100)
         console.log(`your KRA deduction is ${KRA}.`)
 
-    }
+    }//calculates total deductions
     if (grossIncome<=5999){
         let NHIF =(150)
         console.log(`Your NHIF deduction is = Ksh.${NHIF}`)
@@ -24,7 +24,7 @@ function netSalaryCalculator(){
         let NHIF =(300)
         console.log(`Your NHIF deduction is = Ksh.${NHIF}`)
 
-    } else if (grossIncome>=8000 && grossIncome<=11999){
+    } else if (grossIncome>=8000 && grossIncome<=11999){//NHIF deductions output
         let NHIF =(400)
         console.log(`Your NHIF deduction is = Ksh.${NHIF}`)
     }else if (grossIncome>=12000 && grossIncome<=14999){
@@ -68,16 +68,16 @@ function netSalaryCalculator(){
         console.log(`Your NHIF deduction is = Ksh.${NHIF}`)
     }
     if(grossIncome <= 3000 && grossIncome>=0 ){
-        let NSSF =(grossIncome*6/100)
+        let NSSF =(grossIncome*6/100)// calculates NSSF deductions
           console.log  (`Your NSSF deduction is = Ksh. ${NSSF}`)
     }else if (grossIncome>=4500){
         let NSSF = (270)
         console.log(`Your NSSF deduction is = Ksh.${NSSF}`)
     }
-
-        let netSalary= (grossIncome- KRA)
-        console.log(`You net salary is ${netSalary}`)
+//calculates the net salary by adding the total deductions less gross salary
+        let netSalary= (+grossIncome- +NSSF- +KRA -(NHIF -(NHIF*0.15)))
+        console.log(`You net salary is Ksh. ${netSalary}`)
     
     
 
-}netSalaryCalculator();
+}netSalaryCalculator();//call the function netSalaryCalculator
